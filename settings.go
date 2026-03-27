@@ -63,7 +63,7 @@ func random_character(settings setting) (character string) {
 	    pool += "0123456789"
     }
 	if (settings.symbols == true) {
-		pool += "@#!?%$€&-_=+-"
+		pool += "@#!?%$&-_=+-"
 	}
     index = rand.Intn(len(pool))
 	character = string(pool[index])
